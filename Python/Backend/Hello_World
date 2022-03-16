@@ -1,0 +1,2 @@
+#Permet d'afficher "Hello World" dans une console.
+Print("Hello Wolrd")
