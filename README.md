@@ -5,6 +5,6 @@ Bienvenue sur le github de revision ! Vous y trouverez aussi bien des scripts fa
 Essai de texte 
 <p float="left">
   <img src="https://i.imgur.com/erS7Qt6.gif" width="100" />
-  <img src="/img2.png" width="100" /> 
+  <p>Bienvenue sur le github test</p>
   <img src="/img3.png" width="100" />
 </p>
