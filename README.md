@@ -19,11 +19,11 @@ Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus,
 non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.
 
 
-|   Emoji   |   Nom |   Hex |   Dec |   Prix    |
+|   Emoji   |   Nom |   Minimum |   Require |   OS    |
 |---    |:-:    |:-:    |:-:    |--:    |
-|   &#x1F600;   |   GRINNING FACE   |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
-|   &#x1F602;   |   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |   ```&#128514;``` |   0.12 €  |
-|   &#x1F923;   |   ROLLING ON THE FLOOR LAUGHING   |   ```&#x1F923;``` |   ```&#129315;``` |   0.09 €  |
+|   &#x1F600;   |   GRINNING FACE   |   ```&#x1F600;``` |   ```&#128512;``` |   Windows ou Linux  |
+|   &#x1F602;   |   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |   ```&#128514;``` |   Windows ou linux  |
+|   &#x1F923;   |   ROLLING ON THE FLOOR LAUGHING   |   ```&#x1F923;``` |   ```&#129315;``` |   Windows ou Linux  |
 
 First Image|Second Image|
 |:-:|:-:|
