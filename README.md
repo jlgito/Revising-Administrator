@@ -4,6 +4,6 @@ Bienvenue sur le github de revision ! Vous y trouverez aussi bien des scripts fa
 ![](https://i.imgur.com/erS7Qt6.gif)
 Essai de texte 
 <p float="left">
-  <img src="https://i.imgur.com/erS7Qt6.gif" width="100" />
-  <img src="https://i.imgur.com/erS7Qt6.gif" width="100" />
+  <img src="https://i.imgur.com/erS7Qt6.gif" width="100%" />
+  <img src="https://i.imgur.com/erS7Qt6.gif" width="100%" />
 </p>
