@@ -8,11 +8,11 @@ Il est tout de memem recommandé de bien lire les scripts en detail et de mettre
 Quand aux prerequis materiel merci de bien lire le tableau de specifications minimum requis.
 
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+|   Emoji   |   Nom |   Hex |   Dec |   Prix    |
+|---    |:-:    |:-:    |:-:    |--:    |
+|   &#x1F600;   |   GRINNING FACE   |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
+|   &#x1F602;   |   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |   ```&#128514;``` |   0.12 €  |
+|   &#x1F923;   |   ROLLING ON THE FLOOR LAUGHING   |   ```&#x1F923;``` |   ```&#129315;``` |   0.09 €  |
 
 First Image|Second Image|
 |:-:|:-:|
