@@ -19,11 +19,11 @@ Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus,
 non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.
 
 
-|   Nom |   Minimum |   Require |   OS requis    |
+|   Informations |   Minimum |   Require |   OS requis    |
 |:-:    |:-:    |:-:    |--:    |
-|   GRINNING FACE   |   ```&#x1F600;``` |   ```&#128512;``` |   Windows ou Linux  |
-|   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |   ```&#128514;``` |   Windows ou linux  |
-|   ROLLING ON THE FLOOR LAUGHING   |   ```&#x1F923;``` |   ```&#129315;``` |   Windows ou Linux  |
+|   CPU   |   ```Dual core``` |   ```Dual core ou plus``` |   Windows ou Linux  |
+|   RAM  |   ```16Go``` |   ```32 ou plus``` |   Windows ou linux  |
+|   Hyperviseur(s)   |   ```Hyper-V``` |   ```Hyper-V,ESXI ou plus``` |   Windows ou Linux  |
 
 First Image|Second Image|
 |:-:|:-:|
