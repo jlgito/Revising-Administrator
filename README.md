@@ -19,7 +19,7 @@ Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus,
 non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.
 
 
-|   Emoji   |   Nom |   Minimum |   Require |   OS    |
+|   Emoji   |   Nom |   Minimum |   Require |   OS requis    |
 |---    |:-:    |:-:    |:-:    |--:    |
 |   &#x1F600;   |   GRINNING FACE   |   ```&#x1F600;``` |   ```&#128512;``` |   Windows ou Linux  |
 |   &#x1F602;   |   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |   ```&#128514;``` |   Windows ou linux  |
