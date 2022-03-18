@@ -24,6 +24,7 @@ non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.
 |   CPU   |   ```Dual core``` |   ```Dual core ou plus``` |   Windows ou Linux  |
 |   RAM  |   ```16Go``` |   ```32 ou plus``` |   Windows ou linux  |
 |   Hyperviseur(s)   |   ```Hyper-V``` |   ```Hyper-V,ESXI ou plus``` |   Windows ou Linux  |
+|   Editeur de code    |   ```N'importe``` |   ```N'importe``` |   Windows ou Linux  |
 
 First Image|Second Image|
 |:-:|:-:|
