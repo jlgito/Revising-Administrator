@@ -4,20 +4,13 @@ Bienvenue sur le github de revision ! Vous y trouverez aussi bien des scripts fa
 ## PRE-REQUIS pour les revisions
 
 <img align="right" width="100" height="100" src="https://media.tenor.com/images/6a136e1c2d7b30298a5b657348097a60/tenor.gif">
-Il est tout de memem recommandé de bien lire les scripts en detail et de mettre en préproductions ses .
-Quand aux prerequis materiel merci de bien lire le tableau de specifications minimum requis.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
-Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
-in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
-per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut 
-vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar vitae dolor.
-Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat 
-faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc. 
-Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit convallis. 
-Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus, 
-non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.
+Il est tout de memem recommandé de bien lire les scripts en detail avant de les mettre directement en production dans vos 
+prorpre environnement virtuelle pour des raisons de sécurité .
 
+
+
+
+Quand aux prerequis materiel merci de bien lire le tableau de specifications minimum requis.
 
 |   Informations |   Minimum |   Require |   OS requis    |
 |:-:    |:-:    |:-:    |--:    |
