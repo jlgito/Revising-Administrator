@@ -9,7 +9,10 @@ prorpre environnement virtuelle pour des raisons de sécurité .Je conseil egale
 qui seront mis à votre disposition afin de ne pas etre perdu puis surtout de les readapterpour vos usages personnel.
 
 
+
 Quand aux prerequis materiel merci de bien lire le tableau de specifications minimum requis.
+
+
 
 |   Informations |   Minimum |   Require |   OS requis    |
 |:-:    |:-:    |:-:    |--:    |
