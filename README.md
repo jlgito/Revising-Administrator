@@ -8,3 +8,4 @@ Essai de texte
   <p>Bienvenue sur le github test</p>
   <img src="/img3.png" width="100" />
 </p>
+![](https://i.imgur.com/erS7Qt6.gif)  |  ![](https://i.imgur.com/erS7Qt6.gif)
