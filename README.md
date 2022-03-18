@@ -21,6 +21,4 @@ Quand aux prerequis materiel merci de bien lire le tableau de specifications min
 |   Hyperviseur(s)   |   ```Hyper-V``` |   ```Hyper-V,ESXI ou plus``` |   Windows ou Linux  |
 |   Editeur de code    |   ```N'importe``` |   ```N'importe``` |   Windows ou Linux  |
 
-First Image|Second Image|
-|:-:|:-:|
-|![First Image](https://images.pexels.com/photos/585759/pexels-photo-585759.jpeg?h=750&w=1260)|![Second Image](https://images.pexels.com/photos/1335115/pexels-photo-1335115.jpeg?h=750&w=1260)|
+
