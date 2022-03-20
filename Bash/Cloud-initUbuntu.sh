@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Montage d'un cd d'installation
 sudo mount -r ~/Downloads/ubuntu-20.04-live-server-amd64.iso /mnt
 
