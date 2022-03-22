@@ -18,8 +18,15 @@ aws ec2 modify-subnet-attribute --subnet-id subnet-b46032ec --map-public-ip-on-l
 
 #https://docs.aws.amazon.com/cli/latest/userguide/cli-services-ec2-sg.html
 
-aws ec2 create-security-group --group-name my-sg --description "My security group" --vpc-id vpc-1a2b3c4d
+aws ec2 create-security-group --group-name my-sg --description "Unsecure_Webserver" --vpc-id vpc-1a2b3c4d
+aws ec2 authorize-security-group-ingress --group-id sg-903004f8 --protocol tcp --port 80 --cidr x.x.x.x
+aws ec2 authorize-security-group-ingress --group-id sg-903004f8 --protocol tcp --port 22 --cidr x.x.x.x
+
+
+aws ec2 create-security-group --group-name my-sg --description "Database" --vpc-id vpc-1a2b3c4d
+
 aws ec2 authorize-security-group-ingress --group-id sg-903004f8 --protocol tcp --port 3389 --cidr x.x.x.x
+aws ec2 authorize-security-group-ingress --group-id sg-903004f8 --protocol tcp --port 22 --cidr x.x.x.x
 
 #aws ec2 authorize-security-group-ingress --group-name my-sg --protocol tcp --port 3389 --cidr x.x.x.x
 
