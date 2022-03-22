@@ -17,15 +17,16 @@ aws ec2 associate-route-table  --subnet-id subnet-b46032ec --route-table-id rtb-
 aws ec2 modify-subnet-attribute --subnet-id subnet-b46032ec --map-public-ip-on-launch
 
 #https://docs.aws.amazon.com/cli/latest/userguide/cli-services-ec2-sg.html
-
+#Creation du Groupe de sécurité pour le serveur WEB
 aws ec2 create-security-group --group-name my-sg --description "Unsecure_Webserver" --vpc-id vpc-1a2b3c4d
+#Ajout de règle permettant de creer des règles laissant accès
 aws ec2 authorize-security-group-ingress --group-id sg-903004f8 --protocol tcp --port 80 --cidr x.x.x.x
 aws ec2 authorize-security-group-ingress --group-id sg-903004f8 --protocol tcp --port 22 --cidr x.x.x.x
 
-
+#Creation du groupe de sécurité pour le serveur de base de donné
 aws ec2 create-security-group --group-name my-sg --description "Database" --vpc-id vpc-1a2b3c4d
-
-aws ec2 authorize-security-group-ingress --group-id sg-903004f8 --protocol tcp --port 3389 --cidr x.x.x.x
+#Ajout d'une règle de sécurité permettant de prendre la main avec du ssh et de joindre la base mariadb 
+aws ec2 authorize-security-group-ingress --group-id sg-903004f8 --protocol tcp --port 3306 --cidr x.x.x.x
 aws ec2 authorize-security-group-ingress --group-id sg-903004f8 --protocol tcp --port 22 --cidr x.x.x.x
 
 #aws ec2 authorize-security-group-ingress --group-name my-sg --protocol tcp --port 3389 --cidr x.x.x.x
