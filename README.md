@@ -17,7 +17,7 @@ Quand aux prerequis materiel merci de bien lire le tableau de specifications min
 |   Informations |   Minimum |   Require |   OS requis    |
 |:-:    |:-:    |:-:    |--:    |
 |   CPU   |   ```Dual core``` |   ```Dual core ou plus``` |   Windows ou Linux  |
-|   RAM  |   ```16Go``` |   ```32 ou plus``` |   Windows ou linux  |
+|   RAM  |   ```16Go``` |   ```32Go ou plus``` |   Windows ou linux  |
 |   Hyperviseur(s)   |   ```Hyper-V``` |   ```Hyper-V,ESXI ou plus``` |   Windows ou Linux  |
 |   Editeur de code    |   ```N'importe``` |   ```N'importe``` |   Windows ou Linux  |
 
