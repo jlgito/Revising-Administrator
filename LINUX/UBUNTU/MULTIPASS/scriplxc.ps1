@@ -1,4 +1,4 @@
-#!/bin/bash
+
 multipass shell 
 multipass delete -p primary
 multipass list 
