@@ -8,3 +8,4 @@ sudo docker container run -d --name redmine1 -p 80:3000 redmine
 ss -tlnp
 docker ps 
 #sudo docker contianer stop  redmine1
+#Source du conteneur : https://hub.docker.com/_/redmine
