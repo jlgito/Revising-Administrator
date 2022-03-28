@@ -1,12 +1,22 @@
-
+#Permet juste de creer un serveur se nomant primary
 multipass shell 
+#Suppression de la machine se nommant primary 
 multipass delete -p primary
+#Liste toutes les machines virtuelles gerer par mulitpass 
 multipass list 
-multipass launch -c 2 -d 100G -m 8G -n lxdh1
-mulitpass shell lxdh1
-sudo apt update -y 
-sudo apt install lxcd
 
+#Permet de lancer une vm pouvant aller jusqu"a 100GO
+multipass launch -c 2 -d 100G -m 8G -n lxdh1
+
+#Accès directe a la machien virtuelle lxdh1
+mulitpass shell lxdh1
+
+#Mise à jour de la machine virtuelle 
+sudo apt update -y 
+
+#Installation du paquet 
+sudo apt install lxcd
+#Initilaisation de la machine qui gere lxc 
 lxd init
 #Would you like to use LXD clustering? (yes/no) [default=no]:
 #Do you want to configure a new storage pool? (yes/no) [default=yes]: yes
