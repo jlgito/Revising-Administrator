@@ -71,6 +71,6 @@ lxc shell amzl lauch bdd
 #demarrage du conteneur se nommant webserveur l'image amazonlinux 
 lxc stop webserver 
 #demarrage du conteneur se nommant bdd utilisant l'image amazonlinux
-lxc stop amzl lauch bdd 
+lxc stop bdd 
 
 #lxc delete -f <nom du conteneur>
