@@ -13,6 +13,19 @@ multipass launch -c 2 -d 100G -m 8G -n lxdh1
 #Accès directe a la machien virtuelle lxdh1
 multipass shell lxdh1
 
+
+#ATTENTION dans notre tp , la machien lxdh1 à subit des changements
+#Une carte réseau privé à été ajouté
+
+#Installation du paquet linux-azure
+sudo apt-get install linux-azure
+
+
+#au niveau du fichier /etc/netplan
+#So naddresse réseau aura été 192.168.111.111/24 pour l'interface réseau eth01
+#Revoir la documentation d'ubuntu sur les ficheirs netplan
+
+
 #Mise à jour de la machine virtuelle 
 sudo apt update -y 
 
