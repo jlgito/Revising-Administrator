@@ -6,16 +6,22 @@ multipass delete -p primary
 multipass list 
 
 #Permet de lancer une vm pouvant aller jusqu"a 100GO
+#ATTENTION , si vous mettez en place se script sur une vm imrpibiqué . 
+#8 go sur une vm peu s'averrer inssufissant et provoque une rrreur 
 multipass launch -c 2 -d 100G -m 8G -n lxdh1
 
 #Accès directe a la machien virtuelle lxdh1
-mulitpass shell lxdh1
+multipass shell lxdh1
 
 #Mise à jour de la machine virtuelle 
 sudo apt update -y 
 
 #Installation du paquet 
-sudo apt install lxcd
+sudo apt-get install lxc
+
+#Se mettre en utilisateur root 
+su - 
+
 #Initilaisation de la machine qui gere lxc 
 lxd init
 #Would you like to use LXD clustering? (yes/no) [default=no]:
@@ -35,15 +41,36 @@ lxd init
 #Would you like stale cached images to be updated automatically? (yes/no) [default=yes]
 #Would you like a YAML "lxd init" preseed to be printed? (yes/no) [default=no]:
 
+#Affiche toutes les images lxc disponible
 lxc list 
+#Pemret d'afficher toutes les images ubuntu disponible sur mulitpass
 lxc image list images:ubuntu/focal/cloud
+
 #lxc delete -f <nom du conteneur>
+#Recherche d'image mulitpass amazonlinux
 lxc image list images:amazon | grep CONT | grep x86
+
+#Copie de fichier de l'image amazon renommé en amzl (amazon linux)
 lxc image copy images:amazonlinux local: --alias amzl
+
+#Lister toutes les images multipass disponible EN  local sur mon psote 
 lxc image list 
+#Creation d'un conteneur se nommant webserver utilisant l'image amazonlinux 
 lxc init amzl webserver
+#Creation d'un conteneur se nommant bdd utilisant l'image amazonlinux 
 lxc init amzl bdd
+#demarrage du conteneur se nommant webserveur l'image amazonlinux 
 lxc start webserver 
+#demarrage du conteneur se nommant bdd utilisant l'image amazonlinux
 lxc start amzl lauch bdd 
+#Accès à l'instance 
 lxc shell webserver 
+#Accès à l'instance bdd 
 lxc shell amzl lauch bdd 
+
+#demarrage du conteneur se nommant webserveur l'image amazonlinux 
+lxc stop webserver 
+#demarrage du conteneur se nommant bdd utilisant l'image amazonlinux
+lxc stop amzl lauch bdd 
+
+#lxc delete -f <nom du conteneur>
