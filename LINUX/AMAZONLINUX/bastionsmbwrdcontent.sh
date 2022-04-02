@@ -21,10 +21,10 @@ smbd --version
 sudo systemctl start smbd
 sudo systemctl enable smbd
 nano /etc/samba/smb.conf
-sudo adduser it-connect
-sudo smbpasswd -a it-connect
+sudo adduser smbuser
+sudo smbpasswd -a smbuser
 sudo groupadd partage
-sudo gpasswd -a it-connect partage
+sudo gpasswd -a smbuser partage
 sudo chgrp -R partage /srv/partage/
 sudo chmod -R g+rw /srv/partage/
 sudo ls -l /srv/
