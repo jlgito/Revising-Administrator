@@ -25,6 +25,6 @@ sudo adduser smbuser
 sudo smbpasswd -a smbuser
 sudo groupadd partage
 sudo gpasswd -a smbuser partage
-sudo chgrp -R partage /srv/partage/
-sudo chmod -R g+rw /srv/partage/
-sudo ls -l /srv/
+sudo chgrp -R partage /mnt/efs/fs1/var/www/html/wordpress/
+sudo chmod -R g+rw /mnt/efs/fs1/var/www/html/wordpress/
+sudo ls -l /mnt/efs/fs1/var/www/html/wordpress/
