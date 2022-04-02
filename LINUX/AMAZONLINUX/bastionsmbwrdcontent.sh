@@ -2,7 +2,7 @@
 #######################################################################################
 ########################Partie 1 : FOICHIER WORDPRESS UNIQUEMENT#######################
 #######################################################################################
-mkdir -p /mnt/efs/fs1/var/www/html
+mkdir -p /mnt/efs/fs1/var/www/html/wordpress/
 sudo curl -O https://wordpress.org/latest.tar.gz
 sudo tar zxvf latest.tar.gz -C /mnt/efs/fs1/var/www/html
 sudo cp /var/www/html/wordpress/wp-config-sample.php /mnt/efs/fs1/var/www/html/wordpress/wp-config.php
