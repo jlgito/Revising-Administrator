@@ -15,16 +15,16 @@ find /var/www -type f -exec sudo chmod 0664 {} \;
 #########################################################################################
 #################################PARTIE 2: deploiement smb################################
 ##########################################################################################
-yum update
-sudo yum install samba samba-client
+sudo yum update -y
+sudo yum install samba samba-client -y
 smbd --version
-systemctl start smbd
-systemctl enable smbd
+sudo systemctl start smbd
+sudo systemctl enable smbd
 nano /etc/samba/smb.conf
-adduser it-connect
-smbpasswd -a it-connect
-groupadd partage
-gpasswd -a it-connect partage
-chgrp -R partage /srv/partage/
-chmod -R g+rw /srv/partage/
-ls -l /srv/
+sudo adduser it-connect
+sudo smbpasswd -a it-connect
+sudo groupadd partage
+sudo gpasswd -a it-connect partage
+sudo chgrp -R partage /srv/partage/
+sudo chmod -R g+rw /srv/partage/
+sudo ls -l /srv/
