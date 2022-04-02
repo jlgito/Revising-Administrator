@@ -21,11 +21,10 @@ sudo yum install samba samba-client -y
 smbd --version
 sudo systemctl start smb
 sudo systemctl enable smb
-echo 'I=eth0' >> net.eth0.config.sh
-sudo adduser smbuser -p iiii
+#echo 'I=eth0' >> net.eth0.config.sh
 #sudo smbpasswd -a smbuser
 sudo groupadd partage
-sudo gpasswd -a smbuser partage
+sudo gpasswd -a jlo partage
 sudo chgrp -R partage /mnt/efs/fs1/var/www/html/wordpress/
 sudo chmod -R g+rw /mnt/efs/fs1/var/www/html/wordpress/
 sudo ls -l /mnt/efs/fs1/var/www/html/wordpress/
