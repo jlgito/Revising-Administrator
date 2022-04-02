@@ -21,7 +21,7 @@ sudo yum install samba samba-client -y
 smbd --version
 sudo systemctl start smb
 sudo systemctl enable smb
-nano /etc/samba/smb.conf
+echo 'I=eth0' >> net.eth0.config.sh
 sudo adduser smbuser -p iiii
 #sudo smbpasswd -a smbuser
 sudo groupadd partage
