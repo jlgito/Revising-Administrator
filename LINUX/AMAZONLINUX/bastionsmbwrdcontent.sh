@@ -22,8 +22,8 @@ smbd --version
 sudo systemctl start smb
 sudo systemctl enable smb
 nano /etc/samba/smb.conf
-sudo adduser smbuser
-sudo smbpasswd -a smbuser
+sudo adduser smbuser -p iiii
+#sudo smbpasswd -a smbuser
 sudo groupadd partage
 sudo gpasswd -a smbuser partage
 sudo chgrp -R partage /mnt/efs/fs1/var/www/html/wordpress/
