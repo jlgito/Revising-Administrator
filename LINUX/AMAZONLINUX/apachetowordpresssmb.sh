@@ -19,7 +19,7 @@ mkdir -p /mnt/linuxshare
 mkdir -p /etc/credential
 cd /etc/credential
 sudo echo -e "username=smbuser\npassword=IRDnop9311" >> /etc/credential
-sudo mount -t cifs -o credentials=/etc/credential //10.0.2.98/partage /mnt/linuxshare
+sudo mount -t cifs -o credentials=/etc/credential.txt //10.0.2.98/partage /mnt/linuxshare
 
 
 #######################################################################################
