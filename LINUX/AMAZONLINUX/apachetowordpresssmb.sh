@@ -16,11 +16,12 @@ mkdir -p /mnt/linuxshare
 #######################################################################################
 ########################Partie 2 : Fichir de configuration smbclient#######################
 #######################################################################################
-mkdir -p /etc/linux-credential
-cd /etc/linux-credential
-echo -e "username=user\npassword=password" >> credential
-sudo mount -t cifs -o credentials=/etc/linux-credential //WIN_SHARE_IP/<share_name> mkdir -p /mnt/linuxshare
-/etc/fstab
+mkdir -p /etc/credential
+cd /etc/credential
+sudo echo -e "username=smbuser\npassword=IRDnop9311" >> /etc/credential
+sudo mount -t cifs -o credentials=/etc/credential //10.0.2.98/partage /mnt/linuxshare
+
+
 #######################################################################################
 ########################Partie 2 : Modification d'APACHE         #######################
 #######################################################################################
