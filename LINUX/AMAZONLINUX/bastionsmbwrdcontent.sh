@@ -19,8 +19,8 @@ find /mnt/efs/fs1/var/www/html/wordpress -type f -exec sudo chmod 0664 {} \;
 sudo yum update -y
 sudo yum install samba samba-client -y
 smbd --version
-sudo systemctl start smbd
-sudo systemctl enable smbd
+sudo systemctl start smb
+sudo systemctl enable smb
 nano /etc/samba/smb.conf
 sudo adduser smbuser
 sudo smbpasswd -a smbuser
