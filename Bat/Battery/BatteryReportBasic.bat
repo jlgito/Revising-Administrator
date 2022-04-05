@@ -1,1 +1,1 @@
-
+Powercfg /batteryreport
