@@ -1,0 +1,1 @@
+rem net use * /delete
