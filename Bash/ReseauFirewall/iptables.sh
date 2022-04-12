@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Demarrage manuelle du service iptables
 systemctl start iptables
 
