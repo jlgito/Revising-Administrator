@@ -1,4 +1,5 @@
-# Connect
+# Connec
+REM https://winscp.net/eng/docs/scripting
 open sftp://user:password@example.com/ -hostkey="ssh-rsa 2048 xxxxxxxxxxx...="
 # Change remote directory
 cd /home/user
